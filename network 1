@@ -1,0 +1,327 @@
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ pwd
+/home/s2mcab2/Desktop/nsa33/dir1/dir2/dir3
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls
+aa  bb  cc  dd  dir10  dir4
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lt
+total 28
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lS
+total 28
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lS
+total 28
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+drwxrwxr-x 5 s2mcab2 s2mcab2 4096 Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -x
+aa  bb  cc  dd  dir10  dir4  kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -X
+aa  bb  cc  dd  dir10  dir4  kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -X
+aa  bb  cc  dd  dir10  dir4  kk  hi.java  hello.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -x
+aa  bb  cc  dd  dir10  dir4  hello.txt  hi.java  kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lS
+total 36
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+drwxrwxr-x 5 s2mcab2 s2mcab2 4096 Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+-rw-rw-r-- 1 s2mcab2 s2mcab2    6 Feb 25 15:44 hello.txt
+-rw-rw-r-- 1 s2mcab2 s2mcab2    5 Feb 25 15:44 hi.java
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -al
+total 56
+drwxrwxr-x 9 s2mcab2 s2mcab2  4096 Feb 25 15:44 .
+drwxrwxr-x 3 s2mcab2 s2mcab2  4096 Feb 18 16:18 ..
+drwxrwxr-x 2 s2mcab2 s2mcab2  4096 Feb 25 15:24 aa
+drwxrwxr-x 5 s2mcab2 s2mcab2  4096 Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2  4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2  4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2  4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2  4096 Feb 25 15:10 dir4
+-rw------- 1 s2mcab2 s2mcab2 12288 Feb 18 16:32 .file1.txt.swp
+-rw-rw-r-- 1 s2mcab2 s2mcab2     6 Feb 25 15:44 hello.txt
+-rw-rw-r-- 1 s2mcab2 s2mcab2     5 Feb 25 15:44 hi.java
+drwxrwxr-x 2 s2mcab2 s2mcab2  4096 Feb 25 15:35 kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lSr
+total 36
+-rw-rw-r-- 1 s2mcab2 s2mcab2    5 Feb 25 15:44 hi.java
+-rw-rw-r-- 1 s2mcab2 s2mcab2    6 Feb 25 15:44 hello.txt
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 5 s2mcab2 s2mcab2 4096 Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lhSr
+total 36K
+-rw-rw-r-- 1 s2mcab2 s2mcab2    5 Feb 25 15:44 hi.java
+-rw-rw-r-- 1 s2mcab2 s2mcab2    6 Feb 25 15:44 hello.txt
+drwxrwxr-x 2 s2mcab2 s2mcab2 4.0K Feb 25 15:35 kk
+drwxrwxr-x 2 s2mcab2 s2mcab2 4.0K Feb 25 15:10 dir4
+drwxrwxr-x 2 s2mcab2 s2mcab2 4.0K Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4.0K Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4.0K Feb 25 15:24 cc
+drwxrwxr-x 5 s2mcab2 s2mcab2 4.0K Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4.0K Feb 25 15:24 aa
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -R
+.:
+aa  bb  cc  dd  dir10  dir4  hello.txt  hi.java  kk
+
+./aa:
+
+./bb:
+hfhf  hkhkh  khjkh
+
+./bb/hfhf:
+
+./bb/hkhkh:
+
+./bb/khjkh:
+
+./cc:
+
+./dd:
+
+./dir10:
+
+./dir4:
+
+./kk:
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -X
+aa  bb  cc  dd  dir10  dir4  kk  hi.java  hello.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -t
+hi.java  hello.txt  bb  kk  dd  cc  aa  dir4  dir10
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -s
+total 36
+4 aa  4 bb  4 cc  4 dd  4 dir10  4 dir4  4 hello.txt  4 hi.java  4 kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -S
+aa  bb  cc  dd  dir10  dir4  kk  hello.txt  hi.java
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -r
+kk  hi.java  hello.txt  dir4  dir10  dd  cc  bb  aa
+(failed reverse-i-search)`': ls -^C
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -R
+.:
+aa  bb  cc  dd  dir10  dir4  hello.txt  hi.java  kk
+
+./aa:
+
+./bb:
+hfhf  hkhkh  khjkh
+
+./bb/hfhf:
+
+./bb/hkhkh:
+
+./bb/khjkh:
+
+./cc:
+
+./dd:
+
+./dir10:
+
+./dir4:
+
+./kk:
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -l
+total 36
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+drwxrwxr-x 5 s2mcab2 s2mcab2 4096 Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+-rw-rw-r-- 1 s2mcab2 s2mcab2    6 Feb 25 15:44 hello.txt
+-rw-rw-r-- 1 s2mcab2 s2mcab2    5 Feb 25 15:44 hi.java
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -L
+aa  bb  cc  dd  dir10  dir4  hello.txt  hi.java  kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -lsr
+total 36
+4 drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+4 -rw-rw-r-- 1 s2mcab2 s2mcab2    5 Feb 25 15:44 hi.java
+4 -rw-rw-r-- 1 s2mcab2 s2mcab2    6 Feb 25 15:44 hello.txt
+4 drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+4 drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+4 drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+4 drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+4 drwxrwxr-x 5 s2mcab2 s2mcab2 4096 Feb 25 15:37 bb
+4 drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -h
+aa  bb  cc  dd  dir10  dir4  hello.txt  hi.java  kk
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls  >lsoutput
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ cat lsoutput
+aa
+bb
+cc
+dd
+dir10
+dir4
+hello.txt
+hi.java
+kk
+lsoutput
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ ls -l >>lsoutput
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ cat lsoutput
+aa
+bb
+cc
+dd
+dir10
+dir4
+hello.txt
+hi.java
+kk
+lsoutput
+total 40
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 aa
+drwxrwxr-x 5 s2mcab2 s2mcab2 4096 Feb 25 15:37 bb
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 cc
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:24 dd
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:07 dir10
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:10 dir4
+-rw-rw-r-- 1 s2mcab2 s2mcab2    6 Feb 25 15:44 hello.txt
+-rw-rw-r-- 1 s2mcab2 s2mcab2    5 Feb 25 15:44 hi.java
+drwxrwxr-x 2 s2mcab2 s2mcab2 4096 Feb 25 15:35 kk
+-rw-rw-r-- 1 s2mcab2 s2mcab2   53 Feb 25 16:12 lsoutput
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ less hi.java
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ more hi.java
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Student {
+    String name;
+    int age;
+
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Name: " + name + ", Age: " + age;
+    }
+}
+
+public class StudentManagementSystem {
+
+    private static ArrayList<Student> students = new ArrayList<>();
+
+    // Add a new student
+    public static void addStudent(String name, int age) {
+        Student newStudent = new Student(name, age);
+        students.add(newStudent);
+        System.out.println("Student added: " + newStudent);
+    }
+
+    // Remove a student by name
+    public static void removeStudent(String name) {
+        for (Student student : students) {
+            if (student.name.equals(name)) {
+                students.remove(student);
+                System.out.println("Student removed: " + student);
+                return;
+            }
+        }
+        System.out.println("No student found with the name: " + name);
+    }
+
+    // Display all students
+    public static void displayStudents() {
+        if (students.isEmpty()) {
+            System.out.println("No students to display.");
+        } else {
+            System.out.println("Students List:");
+            for (Student student : students) {
+                System.out.println(student);
+            }
+        }
+    }
+
+    // Main menu
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("\n----- Student Management System -----");
+            System.out.println("1. Add Student");
+            System.out.println("2. Remove Student");
+            System.out.println("3. Display All Students");
+            System.out.println("4. Exit");
+            System.out.print("Choose an option: ");
+            int choice = scanner.nextInt();
+            scanner.nextLine(); // consume the leftover newline
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter student's name: ");
+                    String name = scanner.nextLine();
+                    System.out.print("Enter student's age: ");
+                    int age = scanner.nextInt();
+                    addStudent(name, age);
+                    break;
+                case 2:
+                    System.out.print("Enter the name of the student to remove: 
+");
+                    String removeName = scanner.nextLine();
+                    removeStudent(removeName);
+                    break;
+                case 3:
+                    displayStudents();
+                    break;
+                case 4:
+                    System.out.println("Exiting the program...");
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Invalid choice! Please try again.");
+            }
+        }
+    }
+}
+
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ head hi.java
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Student {
+    String name;
+    int age;
+
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ tail hi.java
+                    System.out.println("Exiting the program...");
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Invalid choice! Please try again.");
+            }
+        }
+    }
+}
+
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33/dir1/dir2/dir3$ 
+
