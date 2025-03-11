@@ -1,0 +1,57 @@
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ vi testfile3.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod o+r testfile2.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod o+w testfile2.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod u-r testfile2.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod g=x testfile2.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod 666 testfile3.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ ls -l testfile3.txt
+-rw-rw-rw- 1 s2mcab2 s2mcab2 30 Mar 11 15:00 testfile3.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod --reference=testfile2.txt testfile3.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ ls -l testfile3.txt
+--w---xrw- 1 s2mcab2 s2mcab2 30 Mar 11 15:00 testfile3.txt
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ cat /etc/passwd | head
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ cat /etc/passwd | tail
+gdm:x:126:131:Gnome Display Manager:/var/lib/gdm3:/bin/false
+sssd:x:127:132:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+cc2:x:1000:1000:CC2,,,:/home/cc2:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+mysql:x:128:135:MySQL Server,,,:/nonexistent:/bin/false
+psc:x:1002:1002:,,,:/home/psc:/bin/bash
+exam24:x:1001:1001:,,,:/home/exam24:/bin/bash
+s2cs25:x:1003:1003:,,,:/home/s2cs25:/bin/bash
+s2mcab1:x:1004:1004:,,,:/home/s2mcab1:/bin/bash
+s2mcab2:x:1005:1005:,,,:/home/s2mcab2:/bin/bash
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ cat /etc/passwd | head -n 5
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ cat /etc/passwd | tail -n 5
+psc:x:1002:1002:,,,:/home/psc:/bin/bash
+exam24:x:1001:1001:,,,:/home/exam24:/bin/bash
+s2cs25:x:1003:1003:,,,:/home/s2cs25:/bin/bash
+s2mcab1:x:1004:1004:,,,:/home/s2mcab1:/bin/bash
+s2mcab2:x:1005:1005:,,,:/home/s2mcab2:/bin/bash
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ cat /etc/passwd | head -n 20 | tail -n 10
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+s2mcab2@cc2-Vostro-3470:~/Desktop/nsa33$ chmod 754 testfile3.txt
